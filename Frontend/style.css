@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+height: 100%;}
+
+body {
+  background: linear-gradient(180.61deg,
+          #000000 25.16%,
+          #04254f 80%,
+          #409ecd 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5em;
+  height: 100vh;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  color: white;
+  box-sizing: border-box;
+  margin: 0;
+  
+}
+
+main {
+  align-items: center;
+  height: 100%;
+  width: 150vh;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cabecalho__logo {
+  display: flex;
+  gap: 1em;
+}
+
+.cabecalho__opcoes {
+  font-size: 1.5vh;
+  display: flex;
+  gap: 1em;
+  padding: 0 1em;
+}
+
+.cabecalho__logo img {
+  width: 300px;
+  height: 100px;
+}
+
+.ficha img {
+  gap: 1em;
+  margin: 0 3em 2em 0;
+}
+
+.ficha-descricao {
+  display: flex;
+}
+
+.ficha-descricao div {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+
+.ficha-descricao img {
+  width: 300px;
+  height: 450px; 
+  object-fit: cover; 
+}
+.text{
+  text-align: center;
+  color:  #000000 25.16%;
+  font-size: 2.5vh;
+  margin: 3vh 2vh;
+}
+
+.title{
+  text-align: center;
+  color: #00000080;
+  font-size: 3vh;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+p {
+  font-size: 22px;
+}
+
+.btn-sortear {
+  border-radius: 24px;
+  border: none;
+  outline: none;
+  width: 400px; 
+  font-size: 18px; 
+  padding: 10px 20px; 
+  background-color: #0077b6;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  transition: .3s;
+  position: fixed; 
+  left: 50%; 
+  bottom: 7%;
+  transform: translate(-50%, -50%); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+
+  .ficha-descricao {
+      display: block;
+  }
+}
