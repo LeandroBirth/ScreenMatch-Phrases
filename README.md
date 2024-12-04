@@ -1,10 +1,10 @@
 # ScreenMatch-Phrases
 
-This webpage uses a MySQL database containing famous quotes from movies. It is powered by a **Java backend** and features a simple front-end for easy navigation and execution. The front-end is hosted on **GitHub Pages**, while the backend and database are hosted on **Fly.io** and **PlanetScale** respectively.
+This webpage uses a MySQL database containing famous quotes from movies. It is powered by a **Java backend** and features a simple front-end for easy navigation and execution.
 
-Click on the image below to access the page and explore your favorite movie quotes:
+Click on the video below to see a preview of the running project:
 
-[![ScreenMatch-Phrases](https://github.com/user-attachments/assets/2d339403-bff2-4d99-8fc5-838e0c978ff1)](https://<your-github-pages-link>)
+[![Watch the video](https://img.youtube.com/vi/Vswqc7BBAg8/0.jpg)](https://youtu.be/Vswqc7BBAg8)
 
 ---
 
